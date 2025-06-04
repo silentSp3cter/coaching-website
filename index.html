@@ -6,7 +6,7 @@
     -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML CSS Website</title>
+    <title>ACE Education</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -21,13 +21,29 @@
   </head>
   <body>
 
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><img src="images/logo.png"/>ACE Education</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!-- Hero Section -->
     <div class="main">
       <div class="main__container">
         <div class="main__content">
-          <h1>COACHING WITH</h1>
-          <h2>PRIYANKA</h2>
-          <p>Let me train your top soft skills to create a workplace where people are happier, more committed, and more successful with my international Corporate Coaching Service.</p>
+          <h1>ACE EDUCATION</h1>
+          <h2>IB Tutoring</h2>
+          <p>We offer reliable, personalized one-on-one online tutoring, designed to meet your needs and ensure exam success. Our world-class tutors make the IB journey easier while helping you reach your full potential.</p>
           <button class="main__btn"><a href="/index.html#contact_click">Contact Us</a></button>
           <button class="main__btn"><a href="/index.html#service_click">View Courses</a></button>
         </div>
@@ -95,5 +111,6 @@
       </table>
     </div>
   <script src="https://kit.fontawesome.com/c50026c648.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
   </body>
 </html>
