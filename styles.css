@@ -181,7 +181,6 @@
   #ffffff 80%,
   #f0a029 100%);
   background-size: 100%;
-  /* background: #ffffff; */
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -215,9 +214,15 @@
   flex-wrap: wrap;
 }
 
+.services__image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .services__card {
   margin: 1rem;
-  height: 250px;
+  height: 350px;
   width: 300px;
   border-radius: 4px;
   position: relative;
@@ -228,6 +233,16 @@
 
 .services__card:before {
   opacity: 0.2;
+}
+
+.services__card img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .services__card h2 {
@@ -254,11 +269,11 @@
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1500px;
+    height: 1700px;
     padding: 10rem 0;
   }
   .services__card {
-    height: 250px;
+    height: 350px;
     width: 300px;
   }
   .services h1 {
